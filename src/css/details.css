@@ -1,0 +1,377 @@
+.d-content {
+  width: 100%;
+}
+
+.d-content .d-content-wrap {
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left {
+  float: left;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .img-box {
+  width: 428px;
+  height: 428px;
+  background: #f4f4f4;
+  cursor: default;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .img-box img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .img-list {
+  overflow: hidden;
+  margin-top: 14px;
+  list-style: none;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .img-list li {
+  box-sizing: border-box;
+  float: left;
+  margin-left: 0px;
+  width: 78px;
+  height: 78px;
+  overflow: hidden;
+  margin-left: 10px;
+  vertical-align: top;
+  border: 1px solid #e8e8e8;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .img-list li:hover {
+  border: 1px solid #b4a078;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .img-list .img-l-f {
+  margin-left: 0px !important;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .yh {
+  box-sizing: border-box;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .yh a {
+  margin-top: 14px;
+  display: inline-block;
+  width: auto;
+  padding: 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #b4a078;
+  border: 1px solid #b4a078;
+  background: #f5f3ef;
+  border-radius: 2px;
+  height: 28px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.d-content .d-content-wrap .d-content-wrap-left .yh a:hover {
+  background: #fff;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right {
+  float: right;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top {
+  width: 620px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-left {
+  float: left;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-left .name {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 7px;
+  position: relative;
+  display: block;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-left .jianjie {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-right {
+  overflow: hidden;
+  float: right;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-right .good {
+  color: #e36844;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  display: block;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-right .good-name {
+  float: right;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-top .d-top-right .good-name a {
+  text-align: right;
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid {
+  width: 620px;
+  background: #f5f3ef;
+  border-top: 1px dotted #dedede;
+  border-bottom: 1px dotted #dedede;
+  padding: 0 0 13px;
+  line-height: 24px;
+  font-size: 13px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .d-mid-title {
+  width: 55px;
+  font-size: 13px;
+  float: left;
+  color: #666;
+  margin-left: 10px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .price-box {
+  line-height: 50px;
+  height: 50px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .price-box .fh {
+  margin-left: 0;
+  line-height: 30px;
+  color: #d7282d;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .price-box .price {
+  margin-left: 2px;
+  line-height: 30px;
+  color: #d7282d;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .tj {
+  padding: 10px;
+  height: 56px;
+  width: 488px;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  margin-left: 66px;
+  background-color: #f7efde;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .tj .tj-top {
+  color: #151515;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .tj .tj-top .tj-img {
+  background: url(../img/tips.png) -4px -7376px no-repeat;
+  margin-right: 5px;
+  vertical-align: -2px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .tj .tj-top .sq {
+  font-size: 16px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .tj .tj-top a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #151515;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .tj .tj-bot {
+  color: #b4a078;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .gwf-box {
+  color: #333;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .gwf-box .gwf {
+  color: #C43C3B !important;
+  margin-right: 4px;
+  margin-left: 2px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .gwf-box .gwf i {
+  display: inline-block;
+  background: url(../img/wh.png) no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .lj {
+  position: relative;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .lj .quan {
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #DE2b33;
+  height: 20px;
+  line-height: 18px;
+  margin: 5px 3px 5px 0;
+  position: relative;
+  background: #fff;
+  cursor: pointer;
+  padding: 0 4px 0 8px;
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #de2b33;
+  border-right: none;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .lj .l-s {
+  display: inline-block;
+  margin-left: 10px;
+  background: url(../img/lq.png) no-repeat 0 -135px;
+  display: inline-block;
+  height: 20px;
+  width: 6px;
+  position: absolute;
+  top: 5px;
+  left: 140px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .lj .lq {
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #DE2b33;
+  height: 20px;
+  line-height: 18px;
+  margin: 5px 4px 5px 0;
+  position: relative;
+  background: #fff;
+  cursor: pointer;
+  padding: 0 4px 0 8px;
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #de2b33;
+  border-left: none;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .cx {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #d2d2d2;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .cx .mje-t {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  padding: 0 5px;
+  font-size: 12px;
+  background-color: #e36844;
+  margin-right: 8px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .cx .mje {
+  color: #333;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .fw {
+  margin-top: 10px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .fw a {
+  color: #666;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .fw a:hover {
+  text-decoration: underline;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-mid .fw .fw-l {
+  margin-left: 65px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot {
+  margin-top: 30px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot .d-bot-color span {
+  width: 55px;
+  font-size: 13px;
+  float: left;
+  color: #666;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot .d-bot-color img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin: 0 10px 15px 0;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot .d-bot-num span {
+  width: 55px;
+  font-size: 13px;
+  float: left;
+  color: #666;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot .d-bot-num .set-num {
+  display: inline-block;
+  width: 100%;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot .d-bot-num .set-num .les {
+  position: absolute;
+  float: left;
+  width: 36px;
+  height: 30px;
+  line-height: 28px;
+  background: #fff;
+}
+
+.d-content .d-content-wrap .d-content-wrap-right .d-r-bot .d-bot-num .set-num .set-num-inp {
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 0;
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #333;
+  background: #fff;
+}

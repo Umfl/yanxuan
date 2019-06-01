@@ -222,7 +222,6 @@ header .bot .mid .mid-wrap .mid-shopcar {
   top: 30px;
   cursor: pointer;
   width: 134px;
-  height: 20px;
   border: 1px solid #b4a078;
   border-radius: 19px;
   padding: 8px 0;
@@ -264,13 +263,130 @@ header .bot .mid .mid-wrap .mid-shopcar .scar .scar-num {
   width: 19px;
 }
 
-header .bot .static {
+header .bot .nav-x {
+  width: 100%;
+  padding-right: 0px;
+  line-height: 140px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 50px !important;
+  animation: hdnav2-show .3s;
+  background-color: #fff;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+header .bot .nav-x .nav-wrap {
+  overflow: hidden;
+  height: 50px !important;
+  line-height: 50px;
+}
+
+header .bot .nav-x .nav-wrap .logo {
+  margin-top: 17px !important;
+}
+
+header .bot .nav-x .nav-wrap .logo i {
+  display: inline-block;
+  height: 30px;
+  width: 90px;
+  overflow: hidden;
+  vertical-align: top;
+  background: url(../img/jl.png) no-repeat 0 -272px;
+}
+
+header .bot .nav-x .nav-wrap li {
+  margin-top: 20px !important;
+  padding-bottom: 25px !important;
+  padding-right: 17px !important;
+  padding-left: 17px !important;
+}
+
+header .bot .nav-x .nav-x-right-box {
+  float: left;
+  width: 170px;
+  overflow: hidden;
+  height: 50px;
+  position: relative;
+  margin-left: 7px;
+}
+
+header .bot .nav-x .nav-x-right-box .scal {
+  overflow: hidden;
+  display: inline-block;
+  left: 0;
+  top: 18px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url(../img/jl.png) no-repeat 0 -366px;
+  cursor: pointer;
+  font-size: 0 !important;
+  color: #B4A078;
+  margin-left: 17px;
+  margin-top: -1px;
+}
+
+header .bot .nav-x .nav-x-right-box .peo {
+  position: absolute;
+  left: 35px;
+  top: 18px;
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background: url(../img/jl.png) no-repeat 0 -488px;
+  cursor: pointer;
+  font-size: 0 !important;
+  color: #B4A078;
+  margin-left: 27px;
+  margin-top: -1px;
+}
+
+header .bot .nav-x .nav-x-right-box .shopcar {
+  display: inline-block;
+  position: absolute;
+  left: 70px;
+  top: 15px;
+  height: 40px;
+  width: 40px;
+  background: url(../img/jl.png) no-repeat 0 -140px;
+  cursor: pointer;
+  color: #B4A078;
+  margin-left: 35px;
+  margin-top: -1px;
+  font-size: 14px;
+}
+
+header .bot .nav-x .nav-x-right-box .num {
+  position: absolute;
+  left: 115px;
+  top: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  z-index: 1001;
+  background: url(../img/jl.png) 0 -51px no-repeat;
+  width: 19px;
+  height: 19px;
+}
+
+@keyframes hdnav2-show {
+  0% {
+    top: -42px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+header .static {
   width: 100%;
   position: absolute;
   top: 123px !important;
 }
 
-header .bot .static .nav-wrap {
+header .static .nav-wrap {
   margin: 0px;
   padding: 0px;
   height: 30px;
@@ -278,41 +394,125 @@ header .bot .static .nav-wrap {
   margin: 0 auto;
 }
 
-header .bot .static .nav-wrap ul {
+header .static .nav-wrap ul {
   list-style: none;
   line-height: 1;
   font-weight: 700;
 }
 
-header .bot .static .nav-wrap ul li {
+header .static .nav-wrap ul li {
   float: left;
   margin-top: 27px;
   padding: 0 26px;
   margin-left: 0;
 }
 
-header .bot .static .nav-wrap ul li:hover a {
+header .static .nav-wrap ul li:hover .sub-nav {
+  display: block;
+}
+
+header .static .nav-wrap ul li:hover .nav-a {
   color: #b4a078;
   border-bottom: 3px solid #b4a078;
 }
 
-header .bot .static .nav-wrap ul li a {
+header .static .nav-wrap ul li a {
   text-decoration: none;
   font-size: 14px;
   color: #000;
   padding: 0 0 7px;
 }
 
-header .bot .static .nav-wrap ul .nav-side-first {
+header .static .nav-wrap ul li .sub-nav {
+  width: 1202px;
+  right: auto;
+  position: absolute;
+  left: 75px;
+  top: 50px;
+  background: transparent;
+  z-index: 100;
+  display: none;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap {
+  width: 100%;
+  padding: 14px 20px 20px;
+  height: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl {
+  width: 124px;
+  float: left;
+  margin-right: 24px;
+  font-size: 14px;
+  color: #333;
+  z-index: 101;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl .sub-nav-dt {
+  text-align: center;
+  max-width: 124px;
+  width: 124px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  border-bottom: 1px solid #ddd;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl .sub-nav-dd {
+  max-width: 124px;
+  width: 124px;
+  margin-bottom: 4px;
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 14px;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl .sub-nav-dd:hover a {
+  color: #b4a078;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl .sub-nav-dd a {
+  width: 100%;
+  color: #333;
+  text-decoration: none;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl .sub-nav-dd a img {
+  height: 50px;
+  width: 50px;
+  border: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+
+header .static .nav-wrap ul li .sub-nav .sub-nav-wrap .sub-nav-dl .sub-nav-dd a span {
+  display: inline-block;
+  width: 70px;
+  max-width: 70px;
+  max-height: 48px;
+  margin-left: 4px;
+  font-size: 14px;
+  vertical-align: middle;
+  line-height: 1.2;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+header .static .nav-wrap ul .nav-side-first {
   padding-left: 0px;
 }
 
-header .bot .static .nav-wrap ul .nav-side-first a {
+header .static .nav-wrap ul .nav-side-first a {
   color: #b4a078;
   border-bottom: 3px solid #b4a078;
 }
 
-header .bot .static .nav-wrap ul .nav-side-last {
+header .static .nav-wrap ul .nav-side-last {
   padding-right: 0px;
 }
 
@@ -321,6 +521,7 @@ header .bot .static .nav-wrap ul .nav-side-last {
   width: 100%;
   margin: 0 auto;
   height: 420px;
+  z-index: 1;
 }
 
 .slider .box {
