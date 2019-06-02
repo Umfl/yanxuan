@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/shopcar.css">
+</head>
+
+<body>
+    <div class="shopcar">
+        <div class="shopcar-wrap">
+            <div class="sc-w-c">
+
+                <div class="sc-img"></div>
+                <p class="sc-tip">购物车还是空滴</p>
+                <div class="sc-btn">
+                    <a href="#" class="btn-s">继续逛</a>
+                </div>
+            </div>
+            <!-- 物品的样式 -->
+            <div class="s-list">
+                <div class="s-l-top">
+                    <span class="all">
+                    <input type="checkbox">
+                    <span class="all-c">全选</span>
+                    </span>
+                    <span class="title-l">商品信息</span>
+                    <span class="price-l">单价</span>
+                    <span class="num-l">数量</span>
+                    <span class="sum-l">小计</span>
+                    <span class="cz-l">操作</span>
+                </div>
+                <div class="s-l-mid">
+                    <div class="s-l-mid-wrap">
+                        <span class="all">
+                        <input type="checkbox">
+                    </span>
+                        <span class="title">
+                        <img src="../img/s-p.png" alt="商品图片">
+                        <span class="name">马戏团·我是大儿童系列四件套</span>
+                        </span>
+                        <span class="price"><span class="qian-log">￥</span><span class="qian">399.00</span></span>
+                        <span class="num"><span class="les"><i class="jian"></i></span>
+                        <input clss="set-num-inp" type="text" value="1">
+                        <span class="up"><i class="jia"></i><i class="jia-01"></i></span></span>
+                        <span class="sum"><span class="qian-log">￥</span><span class="qian">399.00</span></span>
+                        <span class="cz">删除</span>
+                    </div>
+                </div>
+                <div class="s-l-bot">
+                    <span class="all">
+                        <input type="checkbox">
+                        <span class="all-c">已选<span class="check-num">&nbsp;&nbsp;1</span></span>
+                    </span>
+                    <span class="all-sum">商品合计：<span class="qian-log">￥</span><span class="qian">399.00</span></span>
+                    <span class="pay">应付金额：<span class="qian-log">￥</span><span class="qian">399.00</span></span>
+                    <span class="xiadan">下单</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../js/shopcar.js"></script>
+
+</html>

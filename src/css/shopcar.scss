@@ -1,0 +1,347 @@
+.shopcar {
+    box-sizing: border-box;
+    .shopcar-wrap {
+        position: relative;
+        border: 1px solid #ddd;
+        height: 696px;
+        .sc-w-c {
+            display: none;
+            margin-top: 200px;
+            margin: 150px auto 0;
+            text-align: center;
+            .sc-img {
+                background: url(../img/b-jl.png) 0 -579px no-repeat;
+                background-size: 180px;
+                height: 180px;
+                width: 180px;
+                display: inline-block;
+                overflow: hidden;
+                vertical-align: top;
+                font-size: 12px;
+                word-spacing: normal;
+                letter-spacing: normal;
+            }
+            .sc-tip {
+                font-size: 16px;
+                color: #999;
+            }
+            .sc-btn {
+                margin-top: 20px;
+                .btn-s {
+                    text-decoration: none;
+                    display: inline-block;
+                    margin-right: 18px;
+                    height: 40px;
+                    width: 100px;
+                    font-size: 16px;
+                    line-height: 38px;
+                    color: #b4a078;
+                    border: 1px solid #b4a078;
+                    background-color: #f5f5f5;
+                    &:hover {
+                        background: #fff;
+                    }
+                }
+            }
+        }
+        .s-list {
+            width: 1090px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            margin-top: 10px;
+            .s-l-top {
+                margin-bottom: 20px;
+                padding: 12px 0;
+                border: 1px solid #ddd;
+                background-color: #f5f5f5;
+                .all {
+                    text-align: left;
+                    width: 139px;
+                    font-size: 13px;
+                    float: left;
+                    margin-left: 20px;
+                    color: #333;
+                    input {
+                        background: url(../img/imput.png) no-repeat;
+                        background-position: 0 -56px;
+                        background-size: 18px;
+                        height: 18px;
+                        width: 18px;
+                        background: #fff;
+                        -webkit-appearance: none;
+                        border-radius: 0;
+                        position: relative;
+                        display: inline-block;
+                        border: 1px solid #ddd;
+                    }
+                    .all-c {
+                        display: inline-block;
+                        margin-left: 14px;
+                        margin-bottom: 11px;
+                        vertical-align: middle;
+                    }
+                }
+                .title-l,
+                .num-l,
+                .price-l,
+                .sum-l,
+                .cz-l {
+                    display: inline-block;
+                    text-align: left;
+                    font-size: 13px;
+                    width: 300px;
+                }
+                .price-l {
+                    text-align: center;
+                    width: 180px!important;
+                }
+                .num-l {
+                    text-align: center;
+                    width: 170px!important;
+                }
+                .sum-l {
+                    text-align: right;
+                    padding-right: 30px;
+                    width: 120px;
+                }
+                .cz-l {
+                    padding-left: 31px;
+                    width: 129px;
+                }
+            }
+            .s-l-mid {
+                border: 1px solid #ddd;
+                margin-bottom: 10px;
+                .s-l-mid-wrap {
+                    height: 140px;
+                    overflow: hidden;
+                    padding: 20px 0;
+                    position: relative;
+                    .all {
+                        margin-top: 45px;
+                        text-align: left;
+                        width: 39px;
+                        font-size: 13px;
+                        float: left;
+                        margin-left: 20px;
+                        color: #333;
+                        input {
+                            background: url(../img/imput.png) no-repeat;
+                            background-position: 0 -56px;
+                            background-size: 18px;
+                            height: 18px;
+                            width: 18px;
+                            background: #fff;
+                            -webkit-appearance: none;
+                            border-radius: 0;
+                            position: relative;
+                            display: inline-block;
+                            border: 1px solid #ddd;
+                        }
+                    }
+                    .title {
+                        width: 400px;
+                        text-align: center;
+                        position: relative;
+                        color: #999;
+                        img {
+                            display: inline-block;
+                            height: 100px;
+                            width: 100px;
+                            border: 1px solid #eaeaea;
+                        }
+                        .name {
+                            font-size: 14px;
+                            display: inline-block;
+                            text-align: left;
+                            font-size: 13px;
+                            width: 300px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            margin-bottom: 30px;
+                            color: #333;
+                        }
+                    }
+                    .price {
+                        font-size: 14px;
+                        display: inline-block;
+                        text-align: center;
+                        position: relative;
+                        color: #333;
+                        overflow: hidden;
+                        width: 180px;
+                        margin-bottom: 50px;
+                    }
+                    .num {
+                        display: inline-block;
+                        position: absolute;
+                        border: 1px solid #ddd;
+                        overflow: hidden;
+                        width: 110px;
+                        left: 683px;
+                        top: 50px;
+                        .les {
+                            border-right: 1px solid #ddd;
+                            position: relative;
+                            float: left;
+                            width: 36px;
+                            height: 30px;
+                            line-height: 28px;
+                            background: #fff;
+                            cursor: pointer;
+                            .jian {
+                                position: absolute;
+                                width: 2px;
+                                height: 2px;
+                                overflow: hidden;
+                                background: #999;
+                                top: 15px;
+                                left: 12px;
+                                width: 10px;
+                            }
+                        }
+                        input {
+                            box-sizing: border-box;
+                            border-radius: 0;
+                            border: 0;
+                            width: 60px;
+                            margin: 0;
+                            font-size: 12px;
+                            text-align: center;
+                            color: #333;
+                            position: relative;
+                            float: left;
+                            width: 36px;
+                            height: 30px;
+                            line-height: 28px;
+                            background: #fff;
+                        }
+                        .up {
+                            border-left: 1px solid #ddd;
+                            position: relative;
+                            float: left;
+                            width: 36px;
+                            height: 30px;
+                            line-height: 28px;
+                            background: #fff;
+                            .jia {
+                                position: absolute;
+                                width: 2px;
+                                height: 2px;
+                                overflow: hidden;
+                                background: #999;
+                                top: 15px;
+                                left: 12px;
+                                width: 10px;
+                            }
+                            .jia-01 {
+                                top: 11px;
+                                left: 16px;
+                                height: 10px;
+                                position: absolute;
+                                width: 2px;
+                                height: 10px;
+                                overflow: hidden;
+                                background: #999;
+                            }
+                        }
+                    }
+                    .sum {
+                        color: #d4282d;
+                        font-size: 14px;
+                        position: absolute;
+                        left: 870px;
+                        top: 50px;
+                    }
+                    .cz {
+                        position: absolute;
+                        left: 980px;
+                        top: 50px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .s-l-bot {
+                position: fixed;
+                z-index: 2;
+                bottom: 0;
+                width: 100%;
+                max-width: 1090px;
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                height: 70px;
+                font-size: 14px;
+                .all {
+                    position: absolute;
+                    top: 24px;
+                    left: 22px;
+                    text-align: left;
+                    width: 139px;
+                    font-size: 13px;
+                    float: left;
+                    margin-left: 20px;
+                    color: #333;
+                    input {
+                        background: url(../img/imput.png) no-repeat;
+                        background-position: 0 -56px;
+                        background-size: 18px;
+                        height: 18px;
+                        width: 18px;
+                        background: #fff;
+                        -webkit-appearance: none;
+                        border-radius: 0;
+                        position: relative;
+                        display: inline-block;
+                        border: 1px solid #ddd;
+                    }
+                    .all-c {
+                        display: inline-block;
+                        margin-left: 14px;
+                        margin-bottom: 11px;
+                        vertical-align: middle;
+                    }
+                }
+                .all-sum {
+                    font-size: 14px;
+                    color: #999999!important;
+                    position: absolute;
+                    top: 34px;
+                    left: 400px;
+                }
+                .pay {
+                    position: absolute;
+                    top: 24px;
+                    left: 600px;
+                    font-size: 14px;
+                    color: #333!important;
+                    .qian-log,
+                    .qian {
+                        color: #d4282d;
+                        font-size: 22px;
+                    }
+                }
+                .xiadan {
+                    float: right;
+                    border-radius: 0;
+                    width: 140px;
+                    height: 70px;
+                    margin-top: -1px;
+                    margin-right: -1px;
+                    line-height: 60px;
+                    font-size: 18px;
+                    color: #fff;
+                    border: 1px solid #b4a078;
+                    background-color: #b4a078;
+                    text-align: center;
+                    cursor: pointer;
+                    &:hover {
+                        color: #fff;
+                        border: 1px solid #c0ae8a;
+                        background-color: #c0ae8a;
+                    }
+                }
+            }
+        }
+    }
+}

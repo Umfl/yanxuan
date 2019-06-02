@@ -1,0 +1,390 @@
+.shopcar {
+  box-sizing: border-box;
+}
+
+.shopcar .shopcar-wrap {
+  position: relative;
+  border: 1px solid #ddd;
+  height: 696px;
+}
+
+.shopcar .shopcar-wrap .sc-w-c {
+  display: none;
+  margin-top: 200px;
+  margin: 150px auto 0;
+  text-align: center;
+}
+
+.shopcar .shopcar-wrap .sc-w-c .sc-img {
+  background: url(../img/b-jl.png) 0 -579px no-repeat;
+  background-size: 180px;
+  height: 180px;
+  width: 180px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  font-size: 12px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.shopcar .shopcar-wrap .sc-w-c .sc-tip {
+  font-size: 16px;
+  color: #999;
+}
+
+.shopcar .shopcar-wrap .sc-w-c .sc-btn {
+  margin-top: 20px;
+}
+
+.shopcar .shopcar-wrap .sc-w-c .sc-btn .btn-s {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 18px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  line-height: 38px;
+  color: #b4a078;
+  border: 1px solid #b4a078;
+  background-color: #f5f5f5;
+}
+
+.shopcar .shopcar-wrap .sc-w-c .sc-btn .btn-s:hover {
+  background: #fff;
+}
+
+.shopcar .shopcar-wrap .s-list {
+  width: 1090px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  margin-top: 10px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top {
+  margin-bottom: 20px;
+  padding: 12px 0;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .all {
+  text-align: left;
+  width: 139px;
+  font-size: 13px;
+  float: left;
+  margin-left: 20px;
+  color: #333;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .all input {
+  background: url(../img/imput.png) no-repeat;
+  background-position: 0 -56px;
+  background-size: 18px;
+  height: 18px;
+  width: 18px;
+  background: #fff;
+  -webkit-appearance: none;
+  border-radius: 0;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .all .all-c {
+  display: inline-block;
+  margin-left: 14px;
+  margin-bottom: 11px;
+  vertical-align: middle;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .title-l,
+.shopcar .shopcar-wrap .s-list .s-l-top .num-l,
+.shopcar .shopcar-wrap .s-list .s-l-top .price-l,
+.shopcar .shopcar-wrap .s-list .s-l-top .sum-l,
+.shopcar .shopcar-wrap .s-list .s-l-top .cz-l {
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
+  width: 300px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .price-l {
+  text-align: center;
+  width: 180px !important;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .num-l {
+  text-align: center;
+  width: 170px !important;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .sum-l {
+  text-align: right;
+  padding-right: 30px;
+  width: 120px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-top .cz-l {
+  padding-left: 31px;
+  width: 129px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap {
+  height: 140px;
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .all {
+  margin-top: 45px;
+  text-align: left;
+  width: 39px;
+  font-size: 13px;
+  float: left;
+  margin-left: 20px;
+  color: #333;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .all input {
+  background: url(../img/imput.png) no-repeat;
+  background-position: 0 -56px;
+  background-size: 18px;
+  height: 18px;
+  width: 18px;
+  background: #fff;
+  -webkit-appearance: none;
+  border-radius: 0;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .title {
+  width: 400px;
+  text-align: center;
+  position: relative;
+  color: #999;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .title img {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #eaeaea;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .title .name {
+  font-size: 14px;
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .price {
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  color: #333;
+  overflow: hidden;
+  width: 180px;
+  margin-bottom: 50px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 110px;
+  left: 683px;
+  top: 50px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num .les {
+  border-right: 1px solid #ddd;
+  position: relative;
+  float: left;
+  width: 36px;
+  height: 30px;
+  line-height: 28px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num .les .jian {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  background: #999;
+  top: 15px;
+  left: 12px;
+  width: 10px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num input {
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 0;
+  width: 60px;
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #333;
+  position: relative;
+  float: left;
+  width: 36px;
+  height: 30px;
+  line-height: 28px;
+  background: #fff;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num .up {
+  border-left: 1px solid #ddd;
+  position: relative;
+  float: left;
+  width: 36px;
+  height: 30px;
+  line-height: 28px;
+  background: #fff;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num .up .jia {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  background: #999;
+  top: 15px;
+  left: 12px;
+  width: 10px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .num .up .jia-01 {
+  top: 11px;
+  left: 16px;
+  height: 10px;
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  overflow: hidden;
+  background: #999;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .sum {
+  color: #d4282d;
+  font-size: 14px;
+  position: absolute;
+  left: 870px;
+  top: 50px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-mid .s-l-mid-wrap .cz {
+  position: absolute;
+  left: 980px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot {
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  max-width: 1090px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  height: 70px;
+  font-size: 14px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .all {
+  position: absolute;
+  top: 24px;
+  left: 22px;
+  text-align: left;
+  width: 139px;
+  font-size: 13px;
+  float: left;
+  margin-left: 20px;
+  color: #333;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .all input {
+  background: url(../img/imput.png) no-repeat;
+  background-position: 0 -56px;
+  background-size: 18px;
+  height: 18px;
+  width: 18px;
+  background: #fff;
+  -webkit-appearance: none;
+  border-radius: 0;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .all .all-c {
+  display: inline-block;
+  margin-left: 14px;
+  margin-bottom: 11px;
+  vertical-align: middle;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .all-sum {
+  font-size: 14px;
+  color: #999999 !important;
+  position: absolute;
+  top: 34px;
+  left: 400px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .pay {
+  position: absolute;
+  top: 24px;
+  left: 600px;
+  font-size: 14px;
+  color: #333 !important;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .pay .qian-log,
+.shopcar .shopcar-wrap .s-list .s-l-bot .pay .qian {
+  color: #d4282d;
+  font-size: 22px;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .xiadan {
+  float: right;
+  border-radius: 0;
+  width: 140px;
+  height: 70px;
+  margin-top: -1px;
+  margin-right: -1px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #b4a078;
+  background-color: #b4a078;
+  text-align: center;
+  cursor: pointer;
+}
+
+.shopcar .shopcar-wrap .s-list .s-l-bot .xiadan:hover {
+  color: #fff;
+  border: 1px solid #c0ae8a;
+  background-color: #c0ae8a;
+}
