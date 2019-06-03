@@ -344,11 +344,19 @@ header {
             }
         }
     }
+    .zero {
+        position: fixed!important;
+        top: 0px!important;
+        z-index: 10000;
+    }
     //导航
+    // .nav-x {
+    //     display: none;
+    // }
     .static {
         width: 100%;
         position: absolute;
-        top: 123px!important;
+        top: 123px;
         box-shadow: 0 0 3px 0rgba(0, 0, 0, .2)!important;
         .nav-wrap {
             margin: 0px;

@@ -9,13 +9,14 @@
         .d-content-wrap-left {
             float: left;
             .img-box {
-                width: 428px;
-                height: 428px;
+                width: 420px;
+                height: 420px;
                 background: #f4f4f4;
                 cursor: default;
                 img {
-                    width: 100%;
-                    height: 100%;
+                    display: inline-block;
+                    width: 100%!important;
+                    height: 100%!important;
                     vertical-align: top;
                 }
             }
@@ -35,6 +36,11 @@
                     border: 1px solid #e8e8e8;
                     &:hover {
                         border: 1px solid #b4a078;
+                    }
+                    img {
+                        display: inline-block;
+                        width: 78px!important;
+                        height: 78px!important;
                     }
                 }
                 .img-l-f {
@@ -293,6 +299,9 @@
                         cursor: pointer;
                         margin: 0 10px 15px 0;
                     }
+                    .ck {
+                        border: 2px solid #b4a078;
+                    }
                 }
                 .d-bot-num {
                     margin-top: 10px;
@@ -306,6 +315,22 @@
                         width: 54px;
                         white-space: normal;
                         box-sizing: border-box;
+                    }
+                    #num {
+                        box-sizing: border-box;
+                        border-radius: 0;
+                        border: 0;
+                        width: 60px;
+                        margin: 0;
+                        font-size: 12px;
+                        text-align: center;
+                        color: #333;
+                        position: relative;
+                        float: left;
+                        width: 36px;
+                        height: 30px;
+                        line-height: 28px;
+                        background: #fff;
                     }
                     .set-num {
                         margin-bottom: 3px;
