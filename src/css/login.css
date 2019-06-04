@@ -133,21 +133,36 @@
   left: 46px;
 }
 
-.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .mail .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .mail .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .phone .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .phone .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .mail .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .mail .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .phone .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .phone .p-tip {
-  display: inline-block;
-  width: 55px;
+.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .mail .m-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .phone .m-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .mail .m-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .phone .m-tip {
+  position: absolute;
+  z-index: 20;
+  left: 30px;
+  top: 24px;
   height: 20px;
   margin-left: 200px;
   margin-top: -25px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0;
+}
+
+.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .mail .phone-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .phone .phone-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .mail .phone-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .phone .phone-tip {
+  position: absolute !important;
+  z-index: 20 !important;
+  left: 30px !important;
+  top: -54px !important;
+  height: 20px !important;
+  margin-left: 200px !important;
+  margin-top: -25px !important;
+  cursor: pointer;
+  font-size: 14px !important;
   color: #333;
   letter-spacing: 0;
 }
@@ -190,16 +205,31 @@
 }
 
 .bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .pw .m-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .pw .p-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .pw .m-tip,
-.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .pw .p-tip {
-  display: inline-block;
-  width: 55px;
+.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .pw .m-tip {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  z-index: 20;
   height: 20px;
   margin-left: 200px;
   margin-top: -25px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0;
+}
+
+.bg .bg-img .bg-wrap .bg-login .l-b .mail-lo .l-b-m .l-b-m-w .pw .phone-tip,
+.bg .bg-img .bg-wrap .bg-login .l-b .phone-lo .l-b-m .l-b-m-w .pw .phone-tip {
+  position: absolute;
+  top: -34px;
+  left: 30px;
+  z-index: 20;
+  height: 20px;
+  margin-left: 200px;
+  margin-top: -25px;
+  cursor: pointer;
+  font-size: 14px;
   color: #333;
   letter-spacing: 0;
 }

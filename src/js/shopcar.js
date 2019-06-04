@@ -101,3 +101,16 @@ if (shop) {
     });
 
 }
+// $(window).scroll(function() {
+
+//     var top = $(window).scrollTop();
+
+//     if (top >= 200) {
+//         $('.s-l-bot').css({
+//             "display": 'fixed',
+//             "top": "300px"
+
+//         })
+//     }
+
+// })

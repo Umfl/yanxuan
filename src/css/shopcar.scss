@@ -266,9 +266,9 @@
                 }
             }
             .s-l-bot {
-                position: fixed;
+                position: absolute;
                 z-index: 2;
-                bottom: 0;
+                // bottom: 0;
                 width: 100%;
                 max-width: 1090px;
                 background-color: #f5f5f5;

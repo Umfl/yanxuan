@@ -20,8 +20,8 @@ $.ajax({
             // console.log();
             temp = `<dd class="four-list ` + last + `">
                 <a href="details.html?id=${id}">
-                    <img class="sh" src="${pic[0].src}" alt="">
-                    <img class="hid" style="display: none" src="../img/03.jpg" alt="">
+                    <img class="sh lazy"  data-original="${pic[0].src}" alt="">
+                    <img class="hid lazy" style="display: none" data-original="../img/03.jpg" alt="">
                     <!-- <img class="lazy bzi" data-original="../img/bzi.png"> -->
                     <div class="kuai"></div>
                     <span class="dd-name">${elm.p_name}</span>
@@ -34,6 +34,11 @@ $.ajax({
             } else {
                 cont2.append(temp);
             }
+            $("img.lazy").lazyload({
+
+                effect: "fadeIn",
+                threshold: 2000
+            });
         })
     }
 });
@@ -89,14 +94,29 @@ $(function() {
     });
     auto();
 })
+$(document).ready(function() {
+    $('.nav-x').css({
+
+        'height': '0px',
+        'top': '-1000px',
+        "opacity": '0',
+        "transition": "all 1s"
+
+    })
+});
+
 $(window).scroll(function() {
+
     var top = $(window).scrollTop()
 
     if (top >= 200) {
         $('.nav-x').css({
             'height': '50px',
             'display': 'fixed',
-            'top': '0px'
+            'top': '0px',
+            "opacity": '1',
+
+
         })
 
     } else if (top <= 200) {

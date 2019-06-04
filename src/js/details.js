@@ -205,3 +205,8 @@ function addShopCar(id, price, num) {
         cookie.set('shop', JSON.stringify(shop), 1);
     }
 }
+$('.shopcar').on('click', function() {
+
+
+    location.href = 'shopcar.html';
+})
