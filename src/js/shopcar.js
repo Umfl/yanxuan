@@ -42,7 +42,7 @@ if (shop) {
             </span>
             <span class="price"><span class="qian-log">￥</span><span class="qian">${price}</span></span>
             <span class="num"><span class="les"><i class="jian"></i></span>
-            <input clss="set-num-inp" type="text" value="1">
+            <input clss="set-num-inp" type="text" value="${arr[0].num}">
             <span class="up"><i class="jia"></i><i class="jia-01"></i></span></span>
             <span class="sum"><span class="qian-log">￥</span><span class="qian">${price*arr[0].num}</span></span>
             <span class="cz "  data-id="${elm.p_id}" >删除</span>
@@ -107,10 +107,16 @@ if (shop) {
 
 //     if (top >= 200) {
 //         $('.s-l-bot').css({
-//             "display": 'fixed',
+//             "position": 'fixed',
 //             "top": "300px"
 
 //         })
 //     }
 
 // })
+$('.shopcar').on('click', function() {
+    location.href = 'shopcar.html';
+})
+$('.scar').on('click', function() {
+    location.href = 'shopcar.html';
+})

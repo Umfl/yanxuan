@@ -32,6 +32,14 @@
             $('.shopcar').on('click', function() {
                 location.href = 'shopcar.html';
             })
+
+            $('.gotop').on('click', function(e) {
+                e.preventDefault();
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 1000)
+            });
+
         });
     </script>
 </head>
@@ -3171,7 +3179,12 @@
             <p><i></i>在线客服</p>
             <p><i></i><span>回到顶部</span></p>
         </div> -->
+        <div class="gotop">
+            <i class="goto-img"></i>
+            <span>回到顶部</span>
+        </div>
 </body>
+
 
 
 </html>

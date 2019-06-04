@@ -150,7 +150,8 @@ $.ajax({
                 </div>
                 <div class="d-bot-num">
                     <span class="d-mid-title">数量</span>
-                    <!-- 要修改 -->
+                    
+                  
                     <input type="number" value="1" min="1"  id="num">
                 </div>
                 <div class="d-bot-btn">
@@ -180,6 +181,7 @@ $.ajax({
         });
 
     }
+
 });
 
 function addShopCar(id, price, num) {
@@ -207,6 +209,9 @@ function addShopCar(id, price, num) {
 }
 $('.shopcar').on('click', function() {
 
+    location.href = 'shopcar.html';
+})
+$('.scar').on('click', function() {
 
     location.href = 'shopcar.html';
 })
